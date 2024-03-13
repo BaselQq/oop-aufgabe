@@ -25,7 +25,7 @@ public class Car {
 
     }
 
-    public static void startCar() {
+    public void startCar() {
         System.out.println("Starting the car");
     }
 
