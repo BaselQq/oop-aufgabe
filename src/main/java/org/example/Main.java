@@ -7,5 +7,8 @@ public class Main {
         Car car = new Car();
         car.startCar();
         car.accelerateSpeed(100);
+
+        Person person = new Person("Basel", 29);
+        Person person1 = new Person("jemand", 100);
     }
 }

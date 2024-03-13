@@ -11,7 +11,7 @@ public class Car {
     String yearOfManufacture;
     int speed = 100;
 
-    public void car(String color, int length, int size, String module, String brand, int speed) {
+    public Car(String color, int length, int size, String module, String brand, int speed) {
         this.color = color;
         this.length = length;
         this.size = size;
@@ -19,6 +19,10 @@ public class Car {
         this.brand = brand;
         this.yearOfManufacture = yearOfManufacture;
         this.speed = speed;
+    }
+
+    public Car() {
+
     }
 
     public static void startCar() {
