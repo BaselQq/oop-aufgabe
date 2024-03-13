@@ -8,7 +8,7 @@ public class Main {
         car.startCar();
         car.accelerateSpeed(100);
 
-        Person person = new Person("Basel", 29);
-        Person person1 = new Person("jemand", 100);
+        Person person = new Person("Basel", 29, 0, null, null);
+        Person person1 = new Person("jemand", 100, 0, null, null);
     }
 }

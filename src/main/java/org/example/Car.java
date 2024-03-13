@@ -11,7 +11,7 @@ public class Car {
     String yearOfManufacture;
     int speed = 100;
 
-    public Car(String color, int length, int size, String module, String brand, int speed) {
+    public Car(String color, int length, int size, String module, String brand, int speed, String yearOfManufacture) {
         this.color = color;
         this.length = length;
         this.size = size;
