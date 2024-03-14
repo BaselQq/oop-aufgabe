@@ -5,8 +5,13 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         Car car = new Car();
+        car.brand = "BMW";
+        car.module = "3";
         car.startCar();
-        car.accelerateSpeed(100);
+        car.accelerateSpeed();
+        car.accelerateSpeed();
+        car.accelerateSpeed();
+        car.accelerateSpeed();
 
         Person person = new Person("Basel", 29, 0, null, null);
         Person person1 = new Person("jemand", 100, 0, null, null);

@@ -3,13 +3,12 @@ package org.example;
 public class Car {
 
     String color;
-
     int length;
     int size;
     String module;
     String brand;
     String yearOfManufacture;
-    int speed = 100;
+    int speed;
 
     public Car(String color, int length, int size, String module, String brand, int speed, String yearOfManufacture) {
         this.color = color;
@@ -26,11 +25,11 @@ public class Car {
     }
 
     public void startCar() {
-        System.out.println("Starting the car");
+        System.out.println("Car " + brand + " from model "+ module + " got started");
     }
 
-    public void accelerateSpeed(int speed) {
-        this.speed = speed + 100;
-        System.out.println(this.speed);
+    public void accelerateSpeed() {
+        speed++;
+        System.out.println("the current car speed from brand "+ brand + " " + module + " is " + speed);
     }
 }
