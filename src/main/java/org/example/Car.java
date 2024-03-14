@@ -7,10 +7,10 @@ public class Car {
     int size;
     String module;
     String brand;
-    String yearOfManufacture;
+    int yearOfManufacture;
     int speed;
 
-    public Car(String color, int length, int size, String module, String brand, int speed, String yearOfManufacture) {
+    public Car(String color, int length, int size, String module, String brand, int speed, int yearOfManufacture) {
         this.color = color;
         this.length = length;
         this.size = size;

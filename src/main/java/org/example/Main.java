@@ -4,9 +4,8 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();
-        car.brand = "BMW";
-        car.module = "3";
+        Car car = new Car("Gold", 4, 5, "3", "BMW", 1, 1998);
+
         car.startCar();
         car.accelerateSpeed();
         car.accelerateSpeed();
@@ -14,6 +13,6 @@ public class Main {
         car.accelerateSpeed();
 
         Person person = new Person("Basel", 29, 0, null, null);
-        Person person1 = new Person("jemand", 100, 0, null, null);
+        Person person1 = new Person("Jemand", 100, 0, null, null);
     }
 }
